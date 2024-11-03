@@ -6,10 +6,10 @@ from pathlib import Path
  #Tiger testing mysql connection11/2
 import mysql.connector as mys
 conn = mys.connect(
-   host = "34.168.14.167"
-   database = "hacc2024"
-   username = "root"
-   password = "Alii8866$$" 
+   host = '34.168.14.167'
+   database = 'hacc2024'
+   username = 'root'
+   password = 'Alii8866$$' 
 )
 print ('connected')
 #df = conn.query('SELECT * from population_cover;', ttl=600)
