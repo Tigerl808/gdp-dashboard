@@ -16,7 +16,12 @@ st.set_page_config(
 
  #Tiger testing mysql connection11/2
 
-
+conn = mysql.connector.connect(
+   host = '34.168.14.167',
+   database = 'hacc2024',
+   username = 'root',
+   password = 'Alii8866$$' 
+)
 st.write("Testing printing")
 
 #df = conn.query('SELECT * from population_cover;', ttl=600)
