@@ -6,9 +6,9 @@ from pathlib import Path
  #Tiger testing mysql connection11/2
 import mysql.connector as mys
 conn = mys.connect(
-   host = '34.168.14.167'
-   database = 'hacc2024'
-   username = 'root'
+   host = '34.168.14.167',
+   database = 'hacc2024',
+   username = 'root',
    password = 'Alii8866$$' 
 )
 print ('connected')
