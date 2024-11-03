@@ -1,4 +1,4 @@
 streamlit
 pandas
 sqlalchemy
-mysqlclient
+mysqlclient==2.2.0
