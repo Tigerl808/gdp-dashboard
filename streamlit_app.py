@@ -2,13 +2,7 @@ import streamlit as st
 import pandas as pd
 import math
 from pathlib import Path
-
- #Tiger testing mysql connection11/2
 import mysql.connector 
-
-st.write("Testing printing")
-
-#df = conn.query('SELECT * from population_cover;', ttl=600)
 # -----------------------------------------------------------------------------
 #
 
@@ -19,6 +13,14 @@ st.set_page_config(
 )
 
 # -----------------------------------------------------------------------------
+
+ #Tiger testing mysql connection11/2
+
+
+st.write("Testing printing")
+
+#df = conn.query('SELECT * from population_cover;', ttl=600)
+
 # Declare some useful functions.
 
 @st.cache_data
