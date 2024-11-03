@@ -4,7 +4,7 @@ import math
 from pathlib import Path
 # -----------------------------------------------------------------------------
 # test tiger
-conn = st.experimental_connection('Cloudmysql', type 'sql') 
+conn = st.experimental_connection('Cloudmysql', type='sql') 
 # Perform query.
 df = conn.query('SELECT * from population_cover;', ttl=600)
 
