@@ -7,6 +7,9 @@ from pathlib import Path
 import mysql.connector 
 
 print ('connected')
+'''
+testing print
+'''
 #df = conn.query('SELECT * from population_cover;', ttl=600)
 # -----------------------------------------------------------------------------
 #
