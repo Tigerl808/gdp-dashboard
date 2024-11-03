@@ -1,5 +1,5 @@
 streamlit
 pandas
-mysqlclient==2.0.0
+mysqlclient==1.4.6
 sqlalchemy
 
