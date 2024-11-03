@@ -6,7 +6,7 @@ from pathlib import Path
  #Tiger testing mysql connection11/2
 import mysql.connector 
 
-print ('connected')
+st.write("Testing printing")
 
 #df = conn.query('SELECT * from population_cover;', ttl=600)
 # -----------------------------------------------------------------------------
