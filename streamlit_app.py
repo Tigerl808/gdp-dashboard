@@ -3,6 +3,18 @@ import pandas as pd
 import math
 from pathlib import Path
 
+  #Tiger testing mysql connection11/2
+# Initialize connection.
+conn = st.connection('mysql', type='sql')
+
+# Perform query.
+df = conn.query('SELECT * from population_cover;', ttl=600)
+
+# Print results.
+for row in df.itertuples():
+    st.write(f"{row.County} has a population :{row.Population}:")
+ #Tiger end testing mysql connection11/2
+
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
     page_title='GDP dashboard',
