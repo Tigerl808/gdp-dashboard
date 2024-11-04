@@ -1,5 +1,4 @@
 streamlit
-pandas
 streamlit_extras
 requests
 clarifai-grpc==10.9.7
@@ -15,4 +14,3 @@ SQLAlchemy
 mysqlclient
 openpyxl
 setuptools
-
