@@ -15,7 +15,12 @@ st.set_page_config(
 # -----------------------------------------------------------------------------
 
  #Tiger testing mysql connection11/2
-
+conn = mysql.connector.connect(
+   host = 'db4free.net',
+   database = 'hacc2024',
+   username = 'kukuip',
+   password = 'Alii9988'
+)
 
 st.write("Testing printing")
 
