@@ -2,3 +2,5 @@ gdal-bin
 libgdal-dev
 pkg-config 
 default-libmysqlclient-dev
+python3-dev
+build-essential
