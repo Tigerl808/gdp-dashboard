@@ -18,11 +18,11 @@ st.set_page_config(
 conn = st.connection('mysql', type='sql')
 st.write("Testing connection ok")
 # Perform query.
-df = conn.query('SELECT * from population_cover;', ttl=600)
+df = conn.query('SELECT * from population_cover;', ttl=6)
 st.write("query ok")
 # Print results.
 for row in df.itertuples():
-    st.write(row.County )
+    st.write(row.County + " population " + str(row.Population))
 
 
 st.write("data ok")
