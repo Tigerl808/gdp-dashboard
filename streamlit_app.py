@@ -21,8 +21,8 @@ st.write("Testing connection ok")
 df = conn.query('SELECT * from population_cover;', ttl=600)
 st.write("query ok")
 # Print results.
-for row in df.itertuples():
-    st.write("{row.County} has a population :{row.Population}")
+#for row in df.itertuples():
+ #   st.write("{row.County} has a population :{row.Population}")
 
 st.write("data ok")
 
