@@ -22,7 +22,7 @@ df = conn.query('SELECT * from population_cover;', ttl=600)
 st.write("query ok")
 # Print results.
 for row in df.itertuples():
-    st.write(row.County + " has population: "  )
+    st.write(row.County + " has population: :{row.Population}:"  )
 
 
 st.write("data ok")
