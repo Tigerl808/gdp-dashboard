@@ -15,6 +15,7 @@ st.set_page_config(
 # -----------------------------------------------------------------------------
 
  #Tiger testing mysql connection11/2
+conn = st.connection('mysql', type='sql')
 
 st.write("Testing printing")
 
