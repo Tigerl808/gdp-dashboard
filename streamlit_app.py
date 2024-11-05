@@ -16,8 +16,14 @@ st.set_page_config(
 
  #Tiger testing mysql connection11/2
 conn = st.connection('mysql', type='sql')
+# Perform query.
+df = conn.query('SELECT * from population_cover;', ttl=600)
 
-st.write("Testing printing")
+# Print results.
+for row in df.itertuples():
+    st.write(f"{row.County} has a population :{row.Population}
+
+st.write("Testing connection ok")
 
 #df = conn.query('SELECT * from population_cover;', ttl=600)
 
