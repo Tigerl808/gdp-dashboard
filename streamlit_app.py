@@ -23,7 +23,7 @@ st.write("query ok")
 # Print results.
 for row in df.itertuples():
     st.write({row.County})
-    st.write({row.Population})
+
 
 st.write("data ok")
 
